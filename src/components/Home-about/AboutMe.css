@@ -1,0 +1,8 @@
+.aboutMe-img {
+    margin-bottom: 2rem;
+
+    grid-column: 1 / span 5;
+    margin-bottom: 0;
+}
+
+
