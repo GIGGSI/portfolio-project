@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import {FaFacebook} from 'react-icons/fa';
+import {FaFacebook, FaInstagram, FaGithub, FaLinkedin} from 'react-icons/fa';
 
 
 class Header extends Component {
@@ -12,28 +12,32 @@ class Header extends Component {
                         <div className="underline"></div>
                         <h1>Stoyan Spasov</h1>
                         <h4>Frond end Developer</h4>
-                        <a href="/contacts" className="btn hero-btn">hire me</a>
+                        <Link to="/contacts" className="btn hero-btn">
+                            hire me
+                        </Link>
                         <ul className="social-icons hero-icons">
                             <li>
-                                <a href="https://www.facebook.com/stoyan.spasov/" className="social-icon">
-                                    <FaFacebook />
-                                    {/*<i className="fa fa-facebook"></i>*/}
+                                <a href="https://www.facebook.com/stoyan.spasov/" className="social-icon"
+                                   target="_blank">
+                                    <FaFacebook/>
+
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/stoyan-spasov-3274b7122/"
-                                   className="social-icon">
-                                    <i className="fab fa-linkedin"></i>
+                                   className="social-icon" target="_blank">
+                                    <FaLinkedin/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/GIGGSI" className="social-icon">
-                                    <i className="fab fa-github"></i>
+                                <a href="https://github.com/GIGGSI" className="social-icon" target="_blank">
+                                    <FaGithub/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/onehundredcho/" className="social-icon">
-                                    <i className="fab fa-instagram"></i>
+                                <a href="https://www.instagram.com/onehundredcho/" className="social-icon"
+                                   target="_blank">
+                                    <FaInstagram/>
                                 </a>
                             </li>
                         </ul>

@@ -12,7 +12,7 @@ const LatestWork = () => {
                 {latesWorkData.map(singleWork => {
                     const {id, webSite, className, imageSrc, projectTitle, projectInfo} = singleWork;
                     return (
-                        <a href={webSite} key={id} className={className}>
+                        <a href={webSite} key={id} className={className} target="_blank">
                             <article className="project">
                                 <img
                                     src={imageSrc}

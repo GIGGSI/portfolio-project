@@ -16,7 +16,7 @@ class Contacts extends Component {
                                 <article key={id} className="single-project">
                                     <div className="project-container">
                                         <img src={img} alt="single project"/>
-                                        <a href={webSite} className="project-icon">
+                                        <a href={webSite} className="project-icon" target="_blank">
                                             <i className="fas fa-home"></i>
                                         </a>
                                     </div>
@@ -27,7 +27,7 @@ class Contacts extends Component {
                                         </p>
                                         <div className="project-footer">
                                             <span><i className="fab fa-github"></i></span>
-                                            <a href={githubUrl}>source code</a>
+                                            <a href={githubUrl} target="_blank">source code</a>
                                         </div>
                                     </div>
                                 </article>

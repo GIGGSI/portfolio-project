@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import './AboutMe.css'
+import './AboutMe.css';
+import {Link} from "react-router-dom";
 
 
 class AboutMe extends Component {
@@ -34,7 +35,9 @@ class AboutMe extends Component {
                             interactive, responsive pages in order to facilitate the web browsing experience of the
                             site’s visitors.
                         </p>
-                        <a href="/about" className="btn">about me</a>
+                        <Link to="/about" className="btn">
+                            about me
+                        </Link>
                     </article>
                 </div>
             </section>

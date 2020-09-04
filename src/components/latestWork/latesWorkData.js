@@ -27,11 +27,11 @@ export default [
     },
     {
         id: 4,
-        webSite: 'https://project-tea.netlify.app/',
+        webSite: 'https://giggsi-react-beach-resort.netlify.app/',
         className: 'project-4',
-        imageSrc: 'https://images.unsplash.com/photo-1582793988951-9aed5509eb97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80',
-        projectTitle: "Tea website",
-        projectInfo: `I'm baby meditation tofu chillwave`,
+        imageSrc: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        projectTitle: "Abu Dhabi beach resort",
+        projectInfo: `Abu Dhabi beach resort web site.`,
     }
 
 ]

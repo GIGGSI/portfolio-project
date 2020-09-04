@@ -1,6 +1,6 @@
 import React, {Component} from "react"
+import {Link} from "react-router-dom";
 
-// import sto from '../images/sto.jpg'
 
 class Connect extends Component {
     render() {
@@ -15,7 +15,7 @@ class Connect extends Component {
                 <div className="connect-banner">
 
                     <div className="section-title">
-                        <h2>let's get in touch</h2>
+                        <h2>Get in touch</h2>
                         <div className="underline"></div>
                     </div>
                     <p className="connect-text">
@@ -25,7 +25,7 @@ class Connect extends Component {
                         cupiditate dicta magni quas corrupti aperiam, rerum minus odio totam
                         repellendus delectus nostrum veniam!
                     </p>
-                    <a href="/contacts" className="btn">contact me</a>
+                    <Link to="/contacts" className="btn">Contact me</Link>
                 </div>
             </section>
 

@@ -1,45 +1,36 @@
 import React, {useState, useEffect} from 'react';
-import {FaFacebook} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
-import  {AiFillFacebook} from 'react-icons/ai'
-import {GiThorHammer} from "react-icons/gi/index";
+import {FaFacebook, FaInstagram, FaYoutube} from "react-icons/fa"
+import {FaGithub, FaLinkedin} from "react-icons/fa/index";
+
 
 export default function Footer() {
     return (
         <>
             <footer className="footer">
-                <ul className="social-icons">
-
-                    <li className="social-icon">
-                        <Link to='https://www.facebook.com'>
-
-                            <FaFacebook className="social-icon"/>
-                        </Link>
-                        {/*<a href="">*/}
-                        {/*    /!*<i className="fa fa-facebook"></i>*!/*/}
-                        {/*    <FaFacebook/>*/}
-                        {/*</a>*/}
-
-
-                    </li>
+                <ul className="social-icons hero-icons">
                     <li>
-                        <a href="https://www.twitter.com" className="social-icon">
-                            <i className="fa fa-linkedin"></i>
+                        <a href="https://www.facebook.com/stoyan.spasov/" className="social-icon"
+                           target="_blank">
+                            <FaFacebook/>
+
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com" className="social-icon">
-                            <i className="fa fa-squarespace"></i>
+                        <a href="https://www.linkedin.com/in/stoyan-spasov-3274b7122/"
+                           className="social-icon" target="_blank">
+                            <FaLinkedin/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com" className="social-icon">
-                            <i className="fa fa-behance"></i>
+                        <a href="https://github.com/GIGGSI" className="social-icon" target="_blank">
+                            <FaGithub/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com" className="social-icon">
-                            <i className="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/onehundredcho/" className="social-icon"
+                           target="_blank">
+                            <FaInstagram/>
                         </a>
                     </li>
                 </ul>
