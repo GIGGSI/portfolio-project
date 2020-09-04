@@ -649,12 +649,14 @@ Skills
         -webkit-column-gap: 2rem;
         -moz-column-gap: 2rem;
         column-gap: 2rem;
+        justify-items: center;
     }
 }
 
 .skills {
     background: var(--clr-primary-9);
 }
+
 
 .skills h3 {
     margin: 1.5rem 0;
@@ -663,6 +665,9 @@ Skills
 
 .skill {
     margin-bottom: 1.25rem;
+}
+.skill:hover{
+    transform: scale(1.2);
 }
 
 .skill p {
@@ -674,7 +679,7 @@ Skills
 .skill-container {
     background: var(--clr-white);
     height: 1rem;
-    width: 100%;
+    width: 30%;
     border-radius: var(--radius);
     position: relative;
 }
@@ -1052,8 +1057,8 @@ Products Page
     margin-bottom: 1.25rem;
     background: var(--clr-grey-10);
     border-radius: var(--radius);
-    text-transform: uppercase;
-    letter-spacing: var(--spacing);
+    /*text-transform: uppercase;*/
+    /*letter-spacing: var(--spacing);*/
 }
 
 .form-control::placeholder {

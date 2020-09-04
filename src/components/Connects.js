@@ -13,22 +13,20 @@ class Connect extends Component {
 
                 </article>
                 <div className="connect-banner">
-
                     <div className="section-title">
                         <h2>Get in touch</h2>
                         <div className="underline"></div>
                     </div>
                     <p className="connect-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ratione
-                        perferendis exercitationem sit. Beatae eius commodi officiis rem
-                        soluta ratione dignissimos quisquam tempore laudantium, porro vitae
-                        cupiditate dicta magni quas corrupti aperiam, rerum minus odio totam
-                        repellendus delectus nostrum veniam!
+                        With the wide range of services, I provide you with all the tools you will need to get your
+                        marketing and sales going. And I know how important are these for you and your business. This
+                        is why I don’t only give you pretty designs and working websites, but I will think about how
+                        your website can sell you better and even more with industry trends, design trends, usefulness
+                        and much more.
                     </p>
                     <Link to="/contacts" className="btn">Contact me</Link>
                 </div>
             </section>
-
         )
     }
 
