@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import {MdFingerprint} from 'react-icons/md';
 import {GiThorHammer} from 'react-icons/gi';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import './Navbar.css';
@@ -35,6 +34,7 @@ export default function Navbar() {
             <IconContext.Provider value={{color: '#fff'}}>
                 <div className="navbar">
                     <div className="navbar-container container">
+
                         <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
                             <GiThorHammer className="navbar-icon"/>
                             THOR

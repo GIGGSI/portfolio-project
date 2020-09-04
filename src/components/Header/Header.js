@@ -20,7 +20,6 @@ class Header extends Component {
                                 <a href="https://www.facebook.com/stoyan.spasov/" className="social-icon"
                                    target="_blank">
                                     <FaFacebook/>
-
                                 </a>
                             </li>
                             <li>
@@ -49,7 +48,6 @@ class Header extends Component {
                     </article>
                 </div>
             </header>
-
         );
     }
 }

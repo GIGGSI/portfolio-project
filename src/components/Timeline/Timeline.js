@@ -1,13 +1,13 @@
 import React, {Component} from "react"
 import timelineData from "./timelineData";
+import Title from "../Title";
 
 class Timeline extends Component {
     render() {
         return (
             <section className="section timeline">
                 <div className="section-title">
-                    <h2>timeline</h2>
-                    <div className="underline"></div>
+                   <Title title="timeline"/>
                 </div>
                 <div className="section-center timeline-center">
                     {timelineData.map(data => {

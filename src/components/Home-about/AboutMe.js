@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './AboutMe.css';
 import {Link} from "react-router-dom";
+import Title from "../Title";
 
 
 class AboutMe extends Component {
@@ -19,12 +20,7 @@ class AboutMe extends Component {
                     </article>
 
                     <article className="about-info about-text">
-
-                        <div className="section-title about-title">
-                            <h2>about</h2>
-                            <div className="underline"></div>
-                        </div>
-
+                        <Title title="about"/>
                         <p>
                             Highly motivated, proactive team player who feels comfortable in dynamic atmosphere, I am
                             eager to contribute towards building a healthy work environment and be a valuable asset to

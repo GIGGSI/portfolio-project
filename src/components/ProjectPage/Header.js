@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Title from "../Title";
 
 
 class Contacts extends Component {
@@ -7,8 +8,8 @@ class Contacts extends Component {
         return (
                 <header className="projects-hero">
                     <div className="section-title">
-                        <h1>my projects</h1>
-                        <div className="underline"></div>
+
+                        <Title title="my projects"/>
                     </div>
                 </header>
 
