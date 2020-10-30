@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './AboutMe.css';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Title from "../Title";
+import stoImg from '../../sto2.jpg'
 
 
 class AboutMe extends Component {
@@ -13,14 +14,14 @@ class AboutMe extends Component {
 
                     <article className="aboutMe-img">
                         <img
-                            src="https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/83873297_10206873854881370_5667927010337357824_o.jpg?_nc_cat=105&_nc_sid=09cbfe&_nc_ohc=rkAOE0NlqYsAX9Wynwg&_nc_ht=scontent-sof1-1.xx&oh=3dca9265008b4a631db7f599b7868c01&oe=5F6027EF"
+                            src={stoImg}
                             className="hero-photo"
                             alt="about img"
                         />
                     </article>
 
                     <article className="about-info about-text">
-                        <Title title="about"/>
+                        <Title title="about" />
                         <p>
                             Highly motivated, proactive team player who feels comfortable in dynamic atmosphere, I am
                             eager to contribute towards building a healthy work environment and be a valuable asset to

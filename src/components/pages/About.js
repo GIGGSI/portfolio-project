@@ -1,6 +1,7 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
 import './About.css'
 import Title from "../Title";
+import sto from '../../sto2.jpg'
 
 // import sto from '../images/sto.jpg'
 
@@ -10,9 +11,7 @@ class About extends Component {
             <div>
                 <section className="about-page">
                     <div className="section-center about-center">
-                        <img
-                            src='https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-9/83873297_10206873854881370_5667927010337357824_o.jpg?_nc_cat=105&_nc_sid=09cbfe&_nc_ohc=rkAOE0NlqYsAX9Wynwg&_nc_ht=scontent-sof1-1.xx&oh=3dca9265008b4a631db7f599b7868c01&oe=5F6027EF'
-                            className="about-img" alt="sto photo"/>
+                        <img src={sto} className="about-img" alt="sto photo" />
                         <article className="about-text">
                             <Title title="about me" />
                             <div className="about-text">

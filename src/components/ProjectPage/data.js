@@ -1,5 +1,5 @@
 import React from "react"
-import {FaCode, FaSketch, FaAndroid} from "react-icons/fa"
+import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
 
 export default [
     {
@@ -16,7 +16,7 @@ export default [
         img: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
         webSite: 'https://giggsi-react-beach-resort.netlify.app/',
         title: "Abu Dhabi beach resort",
-        text: `Abu Dhabi beach resort web site.`,
+        text: `Abu Dhabi beach resort web site. Begin your memorable family vacation at all-suite Beach Resort. Whether you are travelling for a weekend getaway, business or family vacation our all suite hotel puts you in the center of it all.`,
         githubUrl: 'https://github.com/GIGGSI/react-beach-resort'
     },
 
