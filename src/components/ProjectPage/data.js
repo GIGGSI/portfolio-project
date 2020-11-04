@@ -30,11 +30,12 @@ export default [
     },
     {
         id: 4,
-        img: 'https://img1.looper.com/img/gallery/who-will-lead-the-avengers-next/intro-1585575841.jpg',
-        webSite: 'https://new-movie-app.netlify.app/#/home',
-        title: "Movie App",
-        text: `Movie app is my final exam in SoftUni. My first SPA `,
-        githubUrl: 'https://github.com/GIGGSI'
+        img: 'https://images.unsplash.com/photo-1585499583264-491df5142e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        webSite: 'https://flexingsocks.netlify.app/',
+        title: "Flexing Socks",
+        text: `
+        Flexing Socks are distinguished by cheerful and cheerful female and male models. Many models of socks are available in both women's and men's sizes. We have divided the different designs into thematic subcategories, such as "Animals" or "Food and Drinks".`,
+        githubUrl: 'https://github.com/GIGGSI/flexingSocks'
     },
     {
         id: 5,

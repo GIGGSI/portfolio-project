@@ -1,34 +1,36 @@
 import React from "react"
-import Title from '../Title';
+
 import LatestWorkTitle from "./SectionTitle";
-import latesWorkData from "./latesWorkData";
+import latestWorkData from "./latesWorkData";
+import Fade from 'react-reveal/Fade';
 
 const LatestWork = () => {
     return (
         <section className="section projects">
-            <LatestWorkTitle/>
+            <LatestWorkTitle />
+            <Fade right duration={2000}>
+                <div className="section-center projects-center">
+                    {latestWorkData.map(singleWork => {
+                        const { id, webSite, className, imageSrc, projectTitle, projectInfo } = singleWork;
+                        return (
+                            <a href={webSite} key={id} className={className} target="_blank">
+                                <article className="project">
+                                    <img
+                                        src={imageSrc}
+                                        alt="single project"
+                                        className="project-img"
+                                    />
+                                    <div className="project-info">
+                                        <h4>{projectTitle}</h4>
+                                        <p>{projectInfo}</p>
+                                    </div>
+                                </article>
+                            </a>
+                        )
+                    })}
 
-            <div className="section-center projects-center">
-                {latesWorkData.map(singleWork => {
-                    const {id, webSite, className, imageSrc, projectTitle, projectInfo} = singleWork;
-                    return (
-                        <a href={webSite} key={id} className={className} target="_blank">
-                            <article className="project">
-                                <img
-                                    src={imageSrc}
-                                    alt="single project"
-                                    className="project-img"
-                                />
-                                <div className="project-info">
-                                    <h4>{projectTitle}</h4>
-                                    <p>{projectInfo}</p>
-                                </div>
-                            </article>
-                        </a>
-                    )
-                })}
-
-            </div>
+                </div>
+            </Fade>
         </section>
 
     )

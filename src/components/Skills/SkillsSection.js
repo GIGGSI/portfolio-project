@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FaAngleDoubleRight } from 'react-icons/fa';
 import './skills.css'
 import skillsData from './skillsData'
 
@@ -34,7 +33,6 @@ function SkillsSection() {
                     {duties.map((duty, index) => {
                         return (
                             <div key={index} className="job-desc">
-                                {/* <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight> */}
                                 <p>{duty}</p>
                             </div>
                         );

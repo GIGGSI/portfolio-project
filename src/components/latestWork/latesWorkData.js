@@ -19,11 +19,12 @@ export default [
     },
     {
         id: 3,
-        webSite: 'https://new-movie-app.netlify.app/#/home',
+        webSite: 'https://flexingsocks.netlify.app/',
         className: 'project-3',
-        imageSrc: 'https://img1.looper.com/img/gallery/who-will-lead-the-avengers-next/intro-1585575841.jpg',
-        projectTitle: "Movie app",
-        projectInfo: `I'm baby meditation tofu chillwave`,
+        imageSrc: 'https://images.unsplash.com/photo-1585499583264-491df5142e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        projectTitle: "Flexing Socks",
+        projectInfo: `The socks we love!
+        Are you looking for your new favorite models?`,
     },
     {
         id: 4,
