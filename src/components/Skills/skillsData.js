@@ -1,4 +1,3 @@
-
 export default [
     {
         id: 1,
@@ -6,14 +5,23 @@ export default [
         title: 'JavaScript',
         dates: '122',
         company: 'JavaScript',
-        duties: ["A JavaScript developer is responsible for implementing the front-end logic that defines the behavior of the visual elements of a web application. A JavaScript developer is also responsible for connecting this with the services that reside on the back-end. They are usually supported by back-end web developers, who are responsible for server-side application logic."]
+        duties: [`JavaScript is a scripting or programming language that allows you to implement complex features on web pages
+         — every time a web page does more than just sit there and display static information for you to look at —
+          displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — 
+          you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies.`]
     },
     {
         order: 2,
         title: 'React',
         dates: '122',
         company: 'React',
-        duties: ["I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.", "YOLO drinking vinegar chambray pok pok selfies quinoa kinfolk pitchfork street art la croix unicorn DIY. Woke offal jianbing venmo tote bag, palo santo subway tile slow-carb post-ironic pug ugh taxidermy squid.", "Pour-over glossier chambray umami 3 wolf moon. Iceland kale chips asymmetrical craft beer actually forage, biodiesel tattooed fingerstache. Pork belly lomo man braid, portland pitchfork locavore man bun prism."]
+        duties: [`React makes it painless to create interactive UIs. 
+                Design simple views for each state in your application, and React will efficiently update and render 
+                just the right components when your data changes.
+                Declarative views make your code more predictable and easier to debug.
+                Build encapsulated components that manage their own state, then compose them to make complex UIs.
+               Since component logic is written in JavaScript instead of templates, you can easily pass rich data
+               through your app and keep state out of the DOM.`]
     },
     {
         id: 3,
@@ -22,11 +30,11 @@ export default [
         dates: '122',
         company: 'CSS',
         duties: [
-            "eKur",
-            "eagagagaegaegaegagaeg",
-            "eagagagaegaegaegagaega",
-            "eagagagaegaegaegagaega",
-            "eagagagaegaegaegagaega"
+            `CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser. 
+           The browser applies CSS style declarations to selected elements to display them properly. 
+           A style declaration contains the properties and their values, which determine how a webpage looks.
+           CSS is one of the three core Web technologies, along with HTML and JavaScript. 
+           CSS usually styles HTML elements, but can be also used with other markup languages like SVG or XML.`
         ]
     },
     {
@@ -36,11 +44,11 @@ export default [
         dates: '122',
         company: 'Adobe Photoshop',
         duties: [
-            "eKur",
-            "eagagagaegaegaegagaeg",
-            "eagagagaegaegaegagaega",
-            "eagagagaegaegaegagaega",
-            "eagagagaegaegaegagaega"
+            `Photoshop is a program for visual processing of photos and pictures, for creating graphics,
+             sketches, maps and other images. This program is primarily used to process and create high-quality,
+              high-resolution images, usually by gluing many digital layers together.
+               Photoshop uses tonal and color processing tools and works with color models that describe colors 
+               numerically (like most programs in this category). There are different methods of describing colors numerically.`
         ]
     },
     {
@@ -50,11 +58,10 @@ export default [
         dates: '122',
         company: 'Adobe Illustrator',
         duties: [
-            "eKur",
-            "eagagagaegaegaegagaeg",
-            "eagagagaegaegaegagaega",
-            "eagagagaegaegaegagaega",
-            "eagagagaegaegaegagaega"
+            `Adobe Illustrator is a software application for creating drawings, illustrations, 
+            and artwork Illustrator is widely used by graphic designers, web designers, 
+            visual artists, and professional illustrators throughout the world to create high quality artwork. 
+            Illustrator includes many sophisticated drawing tools that can reduce the time need to create illustrations.`
         ]
     },
 
