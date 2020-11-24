@@ -12,13 +12,11 @@
     transition: var(--transition);
     width: 90vw;
     max-width: 35rem;
+    padding: 2rem;
 }
 
 .contact-form:hover {
     box-shadow: var(--dark-shadow);
 }
 
-.contact-form h3 {
-    padding-top: 1.25rem;
-    color: var(--clr-grey-5);
-}
+

@@ -16,7 +16,8 @@ export default class Contacts extends React.Component {
         return (
             <section className="contact-page">
                 <article className="contact-form">
-                    <Title title="get in touch" />
+
+                    <Title title="get in touch" className='contact-title'/>
                     <form
                         onSubmit={this.submitForm}
                         action="https://formspree.io/mnqgeayw"

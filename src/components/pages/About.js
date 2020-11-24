@@ -20,6 +20,11 @@ class About extends Component {
                                     I am eager to contribute towards building a healthy work environment and be a
                                     valuable asset to my team.
                                 </p>
+                                <p>
+                                    I am highly interested in web development as a career and I mainly want to focus on creating
+                                    interactive, responsive pages in order to facilitate the web browsing experience of the
+                                    site’s visitors.
+                        </p>
                             </div>
                             <div className="courses">
                                 <p className="about-text2">
@@ -33,6 +38,9 @@ class About extends Component {
                                 </p>
                                 <p>
                                     REACT JS
+                                </p>
+                                <p>
+                                Adobe Photoshop
                                 </p>
                             </div>
                         </article>

@@ -18,7 +18,7 @@ class Home extends Component {
                 <LatestWork/>
                 <Connects/>
                 <Skills/>
-                <Timeline/>
+                {/* <Timeline/> */}
             </>
         );
     }
