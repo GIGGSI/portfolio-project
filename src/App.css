@@ -650,7 +650,6 @@ Skills
     justify-items: center;
     position: absolute;
   }
-  
 }
 .border-div {
   border: 2px solid #fff;
@@ -963,15 +962,21 @@ Products Page
 .single-project {
   background: var(--clr-grey-10);
   border-radius: var(--radius);
+  transition: var(--transition);
 }
 
 .project-container img {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
+  height: 15rem;
 }
 
 .project-container {
   position: relative;
+}
+.single-project:hover {
+  -webkit-box-shadow: 5px 9px 15px -4px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 9px 15px -4px rgba(0, 0, 0, 0.54);
 }
 
 .project-icon {
