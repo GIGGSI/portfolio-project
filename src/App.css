@@ -458,7 +458,7 @@ Projects
 }
 
 .project-info p {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: var(--clr-white);
 }
 

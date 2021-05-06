@@ -1,6 +1,6 @@
 .navbar {
     background: #1c2237;
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@
 }
 
 .nav-item {
-    height: 80px;
+    height: 60px;
     border-bottom: 2px solid transparent;
 }
 

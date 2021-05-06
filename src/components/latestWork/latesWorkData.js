@@ -31,11 +31,11 @@ export default [
 
     {
         id: 4,
-        webSite: 'https://giggsi-search-github-users.netlify.app/',
+        webSite: 'https://restaurant-bonitas.netlify.app/',
         className: 'project-4',
-        imageSrc: 'https://raw.githubusercontent.com/GIGGSI/Search-Github-Users/bf876dffb10890860c1f91760dca53a47ef92090/src/images/login-img.svg',
-        projectTitle: "Search Github Users",
-        projectInfo: `App that allows the visitor to search get info about GitHub users.
+        imageSrc: 'https://restaurant-bonitas.netlify.app/static/media/menuPic.9e89e552.jpg',
+        projectTitle: "Restauran Bonitas",
+        projectInfo: `Bonita's atmosphere can make everyone feel special and cozy.
         `,
     },
 

@@ -34,6 +34,15 @@ For over 5 years we have been helping you maintain your beard and always look yo
     },
     {
         id: 4,
+        img: 'https://scontent-sof1-1.xx.fbcdn.net/v/t1.6435-9/106277649_118031419962958_5723476531395969392_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=e3f864&_nc_ohc=rndQ0Znjg78AX_6pBg1&_nc_ht=scontent-sof1-1.xx&oh=3c03e821f9062ea73a5341ca0e0a9f0d&oe=60BAB4C5',
+        webSite: 'https://restaurant-bonitas.netlify.app/',
+        title: 'Restaurant Bonitas',
+        text: `Bonita's individual atmosphere can make everyone feel special and cozy, elegant, intimate, refined and beautiful ...`,
+        githubUrl: 'https://github.com/GIGGSI/restaurant-bonitas'
+
+    },
+    {
+        id: 5,
         img: 'https://raw.githubusercontent.com/GIGGSI/Search-Github-Users/bf876dffb10890860c1f91760dca53a47ef92090/src/images/login-img.svg',
         webSite: 'https://giggsi-search-github-users.netlify.app/',
         title: 'Search Github Users',
@@ -41,8 +50,9 @@ For over 5 years we have been helping you maintain your beard and always look yo
         githubUrl: 'https://github.com/GIGGSI/Search-Github-Users'
 
     },
+
     {
-        id: 5,
+        id: 6,
         img: 'https://images.unsplash.com/photo-1582793988951-9aed5509eb97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80',
         webSite: 'https://project-tea.netlify.app/',
         title: "Tea website",
@@ -50,7 +60,7 @@ For over 5 years we have been helping you maintain your beard and always look yo
         githubUrl: 'https://github.com/GIGGSI'
     },
     {
-        id: 6,
+        id: 7,
         img: 'https://images.unsplash.com/photo-1585499583264-491df5142e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
         webSite: 'https://flexingsocks.netlify.app/',
         title: "Flexing Socks",
@@ -59,7 +69,7 @@ For over 5 years we have been helping you maintain your beard and always look yo
         githubUrl: 'https://github.com/GIGGSI/flexingSocks'
     },
     {
-        id: 7,
+        id: 8,
         img: 'https://images.unsplash.com/photo-1516051733211-2492fab1d3a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80',
         webSite: 'https://giggsi.github.io/Backroads-Tour-Company/',
         title: "Backroads Tour Company",
