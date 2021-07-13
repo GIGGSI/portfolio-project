@@ -16,7 +16,7 @@ function SkillsSection() {
                     {skillsData.map((item, index) => {
                         return (
                             <button
-                                key={item.id}
+                                key={index}
                                 onClick={() => setValue(index)}
                                 className={`job-btn ${index === value && 'active-btn'}`}
                             >

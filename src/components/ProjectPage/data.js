@@ -34,7 +34,7 @@ For over 5 years we have been helping you maintain your beard and always look yo
     },
     {
         id: 4,
-        img: 'https://scontent-sof1-1.xx.fbcdn.net/v/t1.6435-9/106277649_118031419962958_5723476531395969392_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=e3f864&_nc_ohc=rndQ0Znjg78AX_6pBg1&_nc_ht=scontent-sof1-1.xx&oh=3c03e821f9062ea73a5341ca0e0a9f0d&oe=60BAB4C5',
+        img: 'https://restaurant-bonitas.netlify.app/static/media/menuPic.9e89e552.jpg',
         webSite: 'https://restaurant-bonitas.netlify.app/',
         title: 'Restaurant Bonitas',
         text: `Bonita's individual atmosphere can make everyone feel special and cozy, elegant, intimate, refined and beautiful ...`,
@@ -59,15 +59,7 @@ For over 5 years we have been helping you maintain your beard and always look yo
         text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
         githubUrl: 'https://github.com/GIGGSI'
     },
-    {
-        id: 7,
-        img: 'https://images.unsplash.com/photo-1585499583264-491df5142e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
-        webSite: 'https://flexingsocks.netlify.app/',
-        title: "Flexing Socks",
-        text: `
-        Flexing Socks are distinguished by cheerful and cheerful female and male models. Many models of socks are available in both women's and men's sizes. We have divided the different designs into thematic subcategories, such as "Animals" or "Food and Drinks".`,
-        githubUrl: 'https://github.com/GIGGSI/flexingSocks'
-    },
+  
     {
         id: 8,
         img: 'https://images.unsplash.com/photo-1516051733211-2492fab1d3a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80',
