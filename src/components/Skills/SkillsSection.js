@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './skills.css'
 import skillsData from './skillsData'
 
 
 function SkillsSection() {
     const [value, setValue] = useState(0);
-
     const { company, dates, duties, title } = skillsData[value];
+
     return (
         <section className="section">
 
@@ -29,7 +29,6 @@ function SkillsSection() {
                 <article className="job-info">
                     <h3>{title}</h3>
                     <h4 className="company-title">{company}</h4>
-                    {/* <p className="job-date">{dates}</p> */}
                     {duties.map((duty, index) => {
                         return (
                             <div key={index} className="job-desc">

@@ -1,22 +1,18 @@
-import React, { Component } from "react"
+import React from "react"
 import Title from "../Title";
 import SkillsSection from "./SkillsSection";
 
-class Skills extends Component {
+const Skills = () => {
+    return (
+        <section className="section skills">
+            <div className="section-title">
+                <Title title="Technology" />
+            </div>
 
-    render() {
-        return (
-            <section className="section skills">
-                <div className="section-title">
-                    <Title title="Technology" />
-                </div>
-           
-                <SkillsSection />
-            </section>
+            <SkillsSection />
+        </section>
 
-        )
-    }
-
+    )
 }
 
 export default Skills
