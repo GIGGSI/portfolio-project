@@ -13,6 +13,8 @@ export default function Navbar() {
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
+        console.log(window.innerWidth)
+        console.log(window.innerHeight)
         if (window.innerWidth <= 960) {
             setButton(false)
         } else {
